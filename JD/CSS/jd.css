@@ -105,7 +105,19 @@ a:active {
 .xiala:hover .neirong {
   display: block;
 }
-.xiala:hover .xiala {
+.xiala:hover {
+  background-color: white;
+}
+.xiala:hover .lianjie {
+  background-color: white;
+}
+.xiala:hover .neirong {
+  background-color: white;
+}
+.xiala:hover .neirong div {
+  background-color: white;
+}
+.xiala:hover .neirong a {
   background-color: white;
 }
 
@@ -210,16 +222,19 @@ a:active {
   display: flex;
 }
 .threezuo {
-  width: 180px;
+  width: 160px;
   margin-left: 240px;
   margin-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
-  padding-left: 20px;
+  padding-left: 40px;
+  font: 15px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
 }
 .threezuo a {
   background-color: white;
+  color: #333;
 }
 
 .zuomenu {
@@ -656,6 +671,23 @@ a:active {
 
 .gudingul li:hover .gudingyi {
   background-color: red;
+  color: white;
+}
+.gudingul li:hover .gudinger {
+  background-color: red;
+  color: white;
+}
+.gudingul li:hover .gudingsan {
+  background-color: red;
+  color: white;
+}
+.gudingul li:hover .gudingsi {
+  background-color: red;
+  color: white;
+}
+.gudingul li:hover .gudingwu {
+  background-color: red;
+  color: white;
 }
 
 .zuomenu-show {
