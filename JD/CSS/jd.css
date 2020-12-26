@@ -123,6 +123,7 @@ a:active {
 
 .dierhang {
   background-color: white;
+  height: 141px;
   display: flex;
 }
 
@@ -132,9 +133,7 @@ a:active {
   background: url(../image/logo.png);
   background-size: 100px 100px;
   background-repeat: no-repeat;
-  margin-left: 200px;
-  margin-right: 150px;
-  margin-top: 30px;
+  margin: 15px 150px 15px 200px;
 }
 .twozhongjian {
   background-color: white;
@@ -142,10 +141,11 @@ a:active {
 .sousuo {
   display: flex;
   width: 600px;
-  height: 50px;
+  height: 32px;
   border: none;
   top: 90px;
-  left: 550px;
+  left: 600px;
+  background-color: white;
 }
 .sousuo1 {
   background-color: white;
@@ -157,7 +157,7 @@ a:active {
 .sousuo input {
   margin-top: 30px;
   width: 498px;
-  height: 50px;
+  height: 32px;
   border: 2px solid red;
   outline: none;
   background-color: white;
@@ -165,10 +165,10 @@ a:active {
 .sousuo button {
   margin-top: 30px;
   border: none;
-  width: 98px;
-  height: 54px;
+  width: 58px;
+  height: 36px;
   background: url(../image/sousuo.png);
-  background-size: 98px 54px;
+  background-size: 58px 36px;
 }
 .resou {
   margin-top: 40px;
@@ -185,7 +185,7 @@ a:active {
 }
 
 .lianjie1 {
-  margin-top: 40px;
+  margin-top: 30px;
   background-color: white;
   font: 15px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
     "\5B8B\4F53", sans-serif;
@@ -200,16 +200,15 @@ a:active {
 .gouwuche {
   margin-left: 30px;
   margin-top: 30px;
-  width: 200px;
-  height: 150px;
+  width: 132px;
+  height: 36px;
   background: url(../image/gouwuche.png);
-  background-size: 200px 70px;
+  background-size: 132px 38px;
   background-repeat: no-repeat;
 }
 
 .erweima {
-  margin-top: 30px;
-  margin-left: 70px;
+  margin: 20px 0 20px 70px;
   width: 100px;
   height: 100px;
   background: url(../image/erweima.png);
@@ -222,11 +221,11 @@ a:active {
   display: flex;
 }
 .threezuo {
-  width: 160px;
-  margin-left: 240px;
-  margin-right: 20px;
+  width: 8%;
+  height: 460px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  margin-left: 15%;
+  margin-right: 20px;
   background-color: white;
   padding-left: 40px;
   font: 15px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
@@ -253,7 +252,7 @@ a:active {
 .lunbotubox {
   position: relative;
   width: 640px;
-  height: 420px;
+  height: 470px;
   margin-right: 20px;
   overflow: hidden;
 }
@@ -266,7 +265,7 @@ a:active {
 .lunbotu img {
   float: left;
   width: 640px;
-  height: 420px;
+  height: 470px;
 }
 
 .num {
@@ -378,37 +377,41 @@ a:active {
 #a5:hover ~ .lunbotu {
   animation: Anim5 0.5s ease-out forwards;
 }
+.gudingtupian {
+  margin-right: 20px;
+}
 .diyizhang {
-  width: 200px;
-  height: 130px;
+  width: 190px;
+  height: 150px;
   background: url(../image/diyizhang.webp);
-  background-size: 200px 130px;
+  background-size: 190px 150px;
   background-repeat: no-repeat;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .dierzhang {
-  width: 200px;
-  height: 130px;
+  width: 190px;
+  height: 150px;
   background: url(../image/dierzhang.webp);
-  background-size: 200px 130px;
+  background-size: 190px 150px;
   background-repeat: no-repeat;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .disanzhang {
-  width: 200px;
-  height: 130px;
+  width: 190px;
+  height: 150px;
   background: url(../image/disanzhang.webp);
-  background-size: 200px 130px;
+  background-size: 190px 150px;
   background-repeat: no-repeat;
 }
 
 .diyiceng {
   position: relative;
-  margin-left: 240px;
+  margin-left: 21%;
   margin-top: 20px;
   display: flex;
-  width: 1080px;
+  width: 55.5%;
   height: 300px;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -451,11 +454,11 @@ a:active {
   background-color: white;
 }
 
-.price span {
+.price i {
   background-color: white;
 }
-
 .price span {
+  background-color: white;
   font-size: 20px;
   font-weight: 700;
   font-family: arial, sans-serif;
@@ -574,7 +577,9 @@ a:active {
   margin: 0px 50px;
   width: 200px;
 }
-
+.zhinan .kuaidi {
+  padding-right: 300px;
+}
 .xialianjie {
   display: flex;
   justify-content: center;
@@ -656,7 +661,7 @@ a:active {
 .guding {
   position: fixed;
   top: 300px;
-  right: 200px;
+  right: 15%;
 }
 .gudingul li {
   width: 40px;
@@ -695,7 +700,7 @@ a:active {
   position: absolute;
   color: black;
   left: 443px;
-  width: 400px;
+  width: 660px;
   height: 420px;
   top: 230px;
   z-index: 11;
@@ -703,11 +708,181 @@ a:active {
 }
 .zuomenu-show kuan-gao {
   color: white;
-  margin: 0 17px;
 }
 .kuan-gao {
   background-color: white;
+  display: flex;
 }
+.kuan-gao a {
+  height: 24px;
+  padding: 0 10px;
+  background-color: black;
+  color: white;
+  margin: 20px 20px;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  line-height: 24px;
+}
+
 .zuomenu li:hover .zuomenu-show {
   display: block;
+}
+
+.zuomenu-show .dierhang {
+  padding: 0 10px;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  margin: 10px 0 10px 10px;
+}
+.zuomenu-show .dierhang a {
+  height: 20px;
+  line-height: 20px;
+  color: #666;
+  width: 45px;
+  margin: 0 5px;
+}
+.zuomenu-show .dierhang :first-child {
+  width: 65px;
+  color: black;
+  font-size: 13px;
+  margin-right: 15px;
+  text-align: right;
+}
+.threeyou {
+  width: 192px;
+  height: 470px;
+  background-color: white;
+}
+.denglu {
+  height: 102px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #999;
+}
+.denglugou {
+  width: 40px;
+  height: 40px;
+  margin: 0px 15px;
+  background-image: url(../image/denglu.png);
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin-top: 8px;
+}
+.denglumiaoshu {
+  width: 120px;
+  height: 40px;
+  margin-top: 8px;
+  background-color: white;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+}
+.denglumiaoshu div {
+  background-color: white;
+}
+.denglumiaoshu span {
+  background-color: white;
+}
+.dengludiyihang {
+  color: #666;
+}
+.xinrenfuli {
+  width: 70px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 10px;
+  background-color: red;
+  margin: 0px 15px;
+}
+.xinrenfuli a {
+  padding: 0 11px;
+  color: white;
+  background-color: red;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+}
+.plushuiyuan {
+  width: 70px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 10px;
+  background-color: black;
+}
+.plushuiyuan a {
+  padding: 0 8px;
+  color: #e5d790;
+  background-color: black;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+}
+.kuaibao {
+  height: 125px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #999;
+}
+.jingdongkuaibao li {
+  padding: 3px 16px;
+  background-color: white;
+}
+.liebiao {
+  width: 150px;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.liebiao span {
+  padding: 2px;
+  color: #e1251b;
+  background-color: rgba(225, 37, 27, 0.08);
+}
+.liebiao a {
+  margin-left: 10px;
+  color: #666;
+  background-color: white;
+}
+.jingdongkuaibao :first-child span {
+  padding: 2px;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+}
+.jingdongkuaibao :first-child a {
+  float: right;
+  color: #666;
+}
+.tubiao {
+  margin-top: 5px;
+  height: 210px;
+  background-color: white;
+}
+.jdtuwen {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.jdtuwen a {
+  background-color: white;
+}
+.jdtuwen img {
+  width: 28px;
+  height: 28px;
+  margin: 5px 10px 0;
+  background-color: white;
+}
+.jdtuwen span {
+  background-color: white;
+  font-size: 10px;
+  margin: 0;
+  padding: 0px 10px;
+}
+.iterm {
+  background-color: white;
+  width: 63px;
+  height: 56px;
 }
