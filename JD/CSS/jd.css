@@ -268,8 +268,8 @@ a:active {
 }
 
 .num {
-  width: 25px;
-  height: 25px;
+  width: 8px;
+  height: 8px;
   color: #666;
   text-align: center;
   line-height: 25px;
@@ -280,19 +280,23 @@ a:active {
   right: 10px;
   display: block; /*块元素*/
   opacity: 0.8; /*透明*/
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.num:nth-child(5) {
+  margin-right: 510px;
 }
 .num:nth-child(4) {
   /*子元素选择器*/
-  margin-right: 30px;
+  margin-right: 530px;
 }
 .num:nth-child(3) {
-  margin-right: 60px;
+  margin-right: 550px;
 }
 .num:nth-child(2) {
-  margin-right: 90px;
+  margin-right: 570px;
 }
 .num:nth-child(1) {
-  margin-right: 120px;
+  margin-right: 590px;
 }
 
 @keyframes initAnimation {
@@ -328,7 +332,7 @@ a:active {
 
 .num:hover {
   color: #fff;
-  background: #f00;
+  background: red;
 }
 .lunbotu:hover,
 .num:hover {
@@ -360,21 +364,21 @@ a:active {
     margin-left: -2560px;
   }
 }
-#a1:hover ~ .lunbotu {
+#a1:hover ~ #images {
   /*a1后的同一个父元素下的兄弟元素*/
-  animation: Anim1 0.5s ease-out forwards;
+  animation: Anim1 .5s ease-out forwards;
 }
-#a2:hover ~ .lunbotu {
-  animation: Anim2 0.5s ease-out forwards;
+#a2:hover ~ #images {
+  animation: Anim2 .5s ease-out forwards;
 }
-#a3:hover ~ .lunbotu {
-  animation: Anim3 0.5s ease-out forwards;
+#a3:hover ~ #images {
+  animation: Anim3 .5s ease-out forwards;
 }
-#a4:hover ~ .lunbotu {
-  animation: Anim4 0.5s ease-out forwards;
+#a4:hover ~ #images {
+  animation: Anim4 .5s ease-out forwards;
 }
-#a5:hover ~ .lunbotu {
-  animation: Anim5 0.5s ease-out forwards;
+#a5:hover ~ #images {
+  animation: Anim5 .5s ease-out forwards;
 }
 .gudingtupian {
   margin-right: 20px;
@@ -611,52 +615,34 @@ a:active {
   margin-bottom: 50px;
   justify-content: center;
 }
-.zuidixia-1 {
-  background-image: url(../image/zuidixiatupian.png);
-  background-repeat: no-repeat;
-  background-size: 300px 300px;
-  width: 100px;
-  height: 40px;
-  background-position: right -144px;
-}
-.zuidixia-2 {
-  background-image: url(../image/zuidixiatupian.png);
-  background-repeat: no-repeat;
-  background-size: 300px 300px;
-  width: 100px;
-  height: 40px;
-  background-position: right -96px;
-}
-.zuidixia-3 {
-  background-image: url(../image/zuidixiatupian.png);
-  background-repeat: no-repeat;
-  background-size: 300px 300px;
-  width: 100px;
-  height: 40px;
-  background-position: right -48px;
-}
-.zuidixia-4 {
-  background-image: url(../image/zuidixiatupian.png);
-  background-repeat: no-repeat;
-  background-size: 300px 300px;
-  width: 100px;
-  height: 40px;
-  background-position: right top;
-}
-.zuidixia-5 {
-  background-image: url(../image/zuidixiatupian.png);
-  background-repeat: no-repeat;
-  background-size: 300px 300px;
-  width: 100px;
-  height: 40px;
-  background-position: 0px -200px;
-}
+.zuidixia-1,
+.zuidixia-2,
+.zuidixia-3,
+.zuidixia-4,
+.zuidixia-5,
 .zuidixia-6 {
   background-image: url(../image/zuidixiatupian.png);
   background-repeat: no-repeat;
   background-size: 300px 300px;
   width: 100px;
   height: 40px;
+}
+.zuidixia-1 {
+  background-position: right -144px;
+}
+.zuidixia-2 {
+  background-position: right -96px;
+}
+.zuidixia-3 {
+  background-position: right -48px;
+}
+.zuidixia-4 {
+  background-position: right top;
+}
+.zuidixia-5 {
+  background-position: 0px -200px;
+}
+.zuidixia-6 {
   background-position: right -192px;
 }
 .guding {
