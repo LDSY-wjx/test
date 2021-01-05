@@ -238,10 +238,17 @@ a:active {
 .zuomenu {
   background-color: white;
 }
+.zuomenu a:hover {
+  /*鼠标放在链接上的时候*/
+  color: red;
+  background-color: #d9d9d9;
+}
 .zuomenu li {
   background-color: white;
 }
-
+.zuomenu li:hover {
+  background-color: #d9d9d9;
+}
 .carousel-inner img {
   clear: both;
   width: 800px;
@@ -366,19 +373,19 @@ a:active {
 }
 #a1:hover ~ #images {
   /*a1后的同一个父元素下的兄弟元素*/
-  animation: Anim1 .5s ease-out forwards;
+  animation: Anim1 0.5s ease-out forwards;
 }
 #a2:hover ~ #images {
-  animation: Anim2 .5s ease-out forwards;
+  animation: Anim2 0.5s ease-out forwards;
 }
 #a3:hover ~ #images {
-  animation: Anim3 .5s ease-out forwards;
+  animation: Anim3 0.5s ease-out forwards;
 }
 #a4:hover ~ #images {
-  animation: Anim4 .5s ease-out forwards;
+  animation: Anim4 0.5s ease-out forwards;
 }
 #a5:hover ~ #images {
-  animation: Anim5 .5s ease-out forwards;
+  animation: Anim5 0.5s ease-out forwards;
 }
 .gudingtupian {
   margin-right: 20px;
