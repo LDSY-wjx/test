@@ -55,35 +55,41 @@ a:active {
   /*被点击的瞬间的颜色*/
   color: red;
 }
-.dingbu {
-  display: flex;
-  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
-    "\5B8B\4F53", sans-serif;
+.tubiaoshang {
+  height: 30px;
+  width: 30px;
+  background-image: url(../image/dingwei.png);
+  background-size: 20px 20px;
+  margin-right: 2px;
+  background-repeat: no-repeat;
+  border: none;
+}
+.dingbuwai {
   height: 30px;
   line-height: 30px;
+  color: #999;
+}
+.dingbu {
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  margin: auto;
+  width: 1190px;
+  background-color: #e3e4e5;
 }
 .dingbuzuo {
-  /* border: 1px solid black; */
   box-sizing: border-box;
-  width: 20%;
-  margin-left: 120px;
-}
-
-.dingbuzuo li {
-  margin-left: 80px;
+  line-height: 30px;
+  float: left;
 }
 
 .dingbuyou {
-  width: 80%;
-  margin-left: 400px;
-}
-
-.dingbuyou .you {
+  float: right;
+  line-height: 30px;
   display: flex;
   box-sizing: border-box;
 }
 
-.dingbuyou .you li {
+.dingbuyou li {
   margin: 0 10px;
 }
 
@@ -147,11 +153,16 @@ a:active {
 .xiala:hover .neirong a {
   background-color: white;
 }
+.dierhangwai {
+  background-color: white;
+}
 
 .waidierhang {
   background-color: white;
   height: 141px;
   display: flex;
+  margin: auto;
+  width: 1190px;
 }
 
 .logo {
@@ -160,7 +171,7 @@ a:active {
   background: url(../image/logo.png);
   background-size: 100px 100px;
   background-repeat: no-repeat;
-  margin: 15px 150px 15px 200px;
+  margin: 2% 5% 0;
 }
 .twozhongjian {
   background-color: white;
@@ -236,10 +247,10 @@ a:active {
 
 .erweima {
   margin: 20px 0 20px 70px;
-  width: 100px;
-  height: 100px;
+  width: 66px;
+  height: 66px;
   background: url(../image/erweima.png);
-  background-size: 100px 100px;
+  background-size: 66px 66px;
   background-repeat: no-repeat;
 }
 
@@ -280,7 +291,7 @@ a:active {
 }
 .carousel-inner img {
   clear: both;
-  width: 800px;
+  width: 800rem;
   height: 430px;
 }
 
@@ -722,7 +733,7 @@ a:active {
 .zuomenu-show {
   display: none;
   position: absolute;
-  color: black;
+  color: #333333;
   left: 443px;
   width: 660px;
   height: 420px;
@@ -762,7 +773,7 @@ a:active {
 .zuomenu-show .dierhang a {
   height: 20px;
   line-height: 20px;
-  color: #666;
+  color: #666666;
   width: 45px;
   margin: 0 5px;
   background-color: white;
